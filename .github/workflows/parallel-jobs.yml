@@ -1,6 +1,6 @@
 name: parallel-jobs
 on:
-  push:
+  workflow_dispatch:
 jobs:
   job-a:
     runs-on: self-hosted
